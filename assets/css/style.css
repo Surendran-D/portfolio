@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,600;1,6..12,800&display=swap');
+
+
+:root {
+    --bgClr : #011627;
+    --textClr : white;
+    --primaryTextClr : #12bdff; 
+
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header {
+    background-color: var(--bgClr);
+    padding: 20px;
+    color: var(--textClr);
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul li {
+    margin-right: 15px;
+
+}
+
+ul li a{
+    color: var(--textClr);
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: var(--primaryTextClr);
+}
+
+header button {
+    padding: 5px 10px;
+    border: 2px solid var(--primaryTextClr);
+    border-radius: 10px ;
+    font-weight: bold;
+    color: var(--primaryTextClr);
+    background-color: var(--bgClr);
+}
+
+
+header button:hover {
+    cursor: pointer;
+    background-color: var(--primaryTextClr);
+    color: white;
+}
+
+.portfolioName {
+    color: var(--primaryTextClr);
+    letter-spacing: 2px;
+}
